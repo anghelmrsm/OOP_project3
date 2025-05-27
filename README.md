@@ -100,6 +100,18 @@ Controlează logica principală a jocului (variantă consolă).
 
 Variantă grafică completă, cu meniuri și butoane.
 
+### Clasa `ScoreSysetm`
+
+Respecta cerintele proiectului 3 fiind facuta cu templates, fiind folosita pentru tinerea si modificare scorului unui jucator.
+
+### Clasa `Logger`
+
+Respecta cerintele proiectului 3 avand in componenta sa o functie pentru afisearea unui mesaj custon (string, int, float), fiind folosita pentru afisarea mesajelor pentru statusul jocului.
+
+### Implementarea design patterns
+
+Am folosit in proiect singleton pentru deck, game si logger pentru ca stim 100% ca avem nevoie de maxim una in componenta jocului nostru.
+
 **Funcționalități:**
 - `run()`, `setupPlayers()`, `selectPlayer()`
 - `playLevel1()` până la `playLevel4()` – fiecare nivel cu butoane vizuale
@@ -116,3 +128,10 @@ Variantă grafică completă, cu meniuri și butoane.
 - Reset complet de stare între încercări
 - Modularizare ușoară pentru adăugarea altor reguli sau extensii
 - Contor pentru runde eșuate și afișare scor final
+
+### Bibliografie
+- Codebeauty YouTube Channel: https://www.youtube.com/@CodeBeauty  
+- Material GitHub mcmarius: https://github.com/mcmarius/poo/tree/master/tema-2  
+- Tutorial C++ W3Schools: https://www.w3schools.com/cpp/default.asp  
+- Pattern Command https://refactoring.guru/design-patterns/command/cpp/example
+- Pattern Prototype https://refactoring.guru/design-patterns/prototype/cpp/example
